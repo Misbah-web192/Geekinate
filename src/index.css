@@ -70,7 +70,7 @@ display: none;
         width: 100%;
         
     }
-    ul{
+    .ul{
        
         flex-direction: column;
         justify-content: center;
@@ -78,7 +78,7 @@ display: none;
         
         
     }
-    ul li{
+    .ul li{
         margin-left: 20px;
     }
     .menu-bar{

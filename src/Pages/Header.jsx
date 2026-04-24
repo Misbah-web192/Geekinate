@@ -17,7 +17,7 @@ export const Header = () => {
           <input type="checkbox" id='check'/>
                       <label htmlFor="check"><FiMenu className='menu-bar'/><FaXmark className='x-mark'/></label>
         <nav className=' lg:mr-35 lg:h-15 lg:flex lg:justify-center lg:items-center'>
-            <ul className='flex gap-12 p-2.5'>
+            <ul className='ul flex gap-12 p-2.5'>
                 <li className='font-semibold text-sm'><a href="/#about">ABOUT</a></li>
                 <li className='font-semibold text-sm flex items-center'><a className="flex items-center" href="/#services">SERVICES <FaAngleDown className="ml-1 text-base" /></a></li>
                 <li className='font-semibold text-sm'><Link to='/portfolio'> PORTFOLIO</Link>

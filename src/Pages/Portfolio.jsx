@@ -20,14 +20,14 @@ export const Portfolio = () => {
                 </svg>
             </div>
             <div className="   pt-10">
-                <ul className='flex w-full  flex-wrap justify-center items-center gap-2'>
-                    <li className='border border-gray-400  py-1 px-3 font-sans text-gray-800 rounded-sm'>All</li>
-                    <li className='border border-gray-400 py-1 px-3 font-sans text-gray-800 rounded-sm' >Finance</li>
-                    <li className='border border-gray-400 py-1 px-3 font-sans text-gray-800 rounded-sm' >Healthcare</li>
-                    <li className='border border-gray-400 py-1 px-3 font-sans text-gray-800 rounded-sm' >Marketing</li>
-                    <li className='border border-gray-400 py-1 px-3 font-sans text-gray-800 rounded-sm' >Bussiness</li>
-                    <li className='border border-gray-400 py-1 px-3 font-sans text-gray-800 rounded-sm' >SAAS</li>
-                    <li className='border border-gray-400 py-1 px-3 font-sans text-gray-800 rounded-sm' >Education</li>
+                <ul className='flex w-full flex-wrap  justify-center items-center gap-2'>
+                    <li className='border border-gray-400 w-10  py-1 px-3 font-sans text-gray-800 rounded-sm'>All</li>
+                    <li className='border border-gray-400 flex justify-center items-center w-20 py-1 px-3 font-sans text-gray-800 rounded-sm' >Finance</li>
+                    <li className='border border-gray-400 flex justify-center items-center  w-20 py-1 px-3 font-sans text-gray-800 rounded-sm' >Healthcare</li>
+                    <li className='border border-gray-400 flex justify-center items-center  w-20  py-1 px-3 font-sans text-gray-800 rounded-sm' >Marketing</li>
+                    <li className='border border-gray-400 flex justify-center items-center  w-20  py-1 px-3 font-sans text-gray-800 rounded-sm' >Bussiness</li>
+                    <li className='border border-gray-400 flex justify-center items-center  w-20  py-1 px-3 font-sans text-gray-800 rounded-sm' >SAAS</li>
+                    <li className='border border-gray-400 flex justify-center items-center  w-20  py-1 px-3 font-sans text-gray-800 rounded-sm' >Education</li>
                 </ul>
             </div>
             <div className=" flex-wrap p-10 gap-9 flex justify-center items-center">
