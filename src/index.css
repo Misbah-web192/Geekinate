@@ -1,0 +1,122 @@
+@import "tailwindcss";
+body{
+  color:  rgb(84, 94, 108);
+      font-family: Nunito, sans-serif;
+    
+
+}
+html,body{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    
+}
+.custom-shape-divider-top-1776190353 {
+    position: absolute;
+    
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1776190353 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 47px;
+}
+
+.custom-shape-divider-top-1776190353 .shape-fill {
+    fill: rgb(248,249,252);
+}
+
+.custom-shape-divider-top-1776190353-1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 47px;
+}
+
+.custom-shape-divider-top-1776190353-1 .shape-fill {
+    fill: rgb(32,41,66);
+}
+.custom-shape-divider-top-1776190353-2 .shape-fill{
+   fill:  rgb(227,246,233);
+}
+.menu-bar{
+ display: none;
+}
+.x-mark{
+display: none;
+}
+#check{
+    display: none;
+}
+
+
+
+/* NavBar Section Responsive design */
+@media only screen and (min-width:0px) and (max-width:740px) {
+    header{
+        position: relative;
+    }
+    nav{
+      background-color: rgb(251, 251, 251);
+        position: absolute;
+        padding: 2px;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        
+    }
+    ul{
+       
+        flex-direction: column;
+        justify-content: center;
+        gap: 14px;
+        
+        
+    }
+    ul li{
+        margin-left: 20px;
+    }
+    .menu-bar{
+        display: block;
+        font-size: 30px;
+        margin-right: 50px;
+    }
+    .x-mark{
+        display: block;
+        font-size: 30px;
+         margin-right: 50px;
+    }
+    #check{
+        display: none;
+    }
+     #check:checked ~label .menu-bar{
+    display: none;
+   }
+   
+   #check:checked ~label .x-mark{
+    display: block;
+   }
+   #check:checked ~ nav{
+  display: block;
+}
+
+    .menu-bar {
+        display: block;
+    }
+    .x-mark{
+        display: none;
+    }
+    
+    nav {
+      display: none;
+    }
+    .contact{
+        width: 50%;
+    }
+
+}
